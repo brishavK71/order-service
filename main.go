@@ -9,7 +9,7 @@ import (
 	"syscall"
 	"time"
 )
-
+// new changes made
 func main() {
 	// Config from env
 	kafkaBrokers := []string{getenv("KAFKA_BROKER", "kafka:9092")}
