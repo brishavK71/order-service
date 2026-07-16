@@ -7,7 +7,8 @@ import (
 
 	"github.com/segmentio/kafka-go"
 )
-
+// KafkaProducer is a wrapper around kafka.Writer to publish messages to a Kafka topic.
+// another option is to use sarama, but kafka-go is simpler and has fewer dependencies.
 type KafkaProducer struct {
 	writer *kafka.Writer
 	topic  string
