@@ -7,7 +7,8 @@ import (
 
 	"github.com/segmentio/kafka-go"
 )
-
+//this is for rebase
+//this is for rebase conflict issue
 type KafkaProducer struct {
 	writer *kafka.Writer
 	topic  string
