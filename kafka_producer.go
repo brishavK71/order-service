@@ -9,6 +9,8 @@ import (
 )
 // KafkaProducer is a wrapper around kafka.Writer to publish messages to a Kafka topic.
 // another option is to use sarama, but kafka-go is simpler and has fewer dependencies.
+//this is for rebase
+//this is for rebase conflict issue
 type KafkaProducer struct {
 	writer *kafka.Writer
 	topic  string
